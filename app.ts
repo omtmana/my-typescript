@@ -1,24 +1,22 @@
-// function add(n1: number, n2: number) {
-//    return n1 + n2
-// }
+function add_num(n1: number, n2: number) {
+   return n1 + n2
+}
 
-// const number1 = 5
-// const number2 = 2.8
+let num1 = 5
+let num2 = 2.8
 
-// const result = add(number1, number2)
-// console.log(result)
+const final_result = add_num(num1, num2)
+console.log(final_result)
 
-// tsc app.ts type this to compile
-
-function add(n1: number, n2: number) {
+function combine_nums(n1: number, n2: number) {
    if (typeof n1 !== 'number' || typeof n2 !== 'number') {
       throw new Error('Incorrect Input')
    }
    return n1 + n2
 }
 
-const number1 = 5
-const number2 = 2.8
+let nums1 = 5
+let nums2 = 2.8
 
-const result = add(number1, number2)
-console.log(result)
+const total = combine_nums(nums1, nums2)
+console.log(total)
