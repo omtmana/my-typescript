@@ -40,4 +40,16 @@ arrayOfStrings = ["This", "Is", "An", "Array", "Of", "Strings"]
 let anyArray: any[];
 anyArray = ["Any", 1, "Array"]
 
-for (const hobby of person.)
+for (const hobby of person.hobbies) {
+   console.log(hobby.toUpperCase())
+   // error: console.log(hobby.map())
+}
+
+// Core Types
+/*
+1. number | 1, 5.3, -10 | All numbers
+2. string | 'Hi', "Hi",`Hi` | All text values
+3. boolean | true, false
+4. object | {age: 30}
+5. array | [1, 2, 3]
+*/

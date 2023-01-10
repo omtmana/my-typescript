@@ -1,6 +1,7 @@
 var person = {
     name: 'Olivia',
-    age: 25
+    age: 25,
+    hobbies: ['Basketball', 'Soccer']
 };
 console.log(person);
 console.log(person.name);
@@ -27,3 +28,10 @@ const product: {
 
 */
 var arrayOfStrings;
+arrayOfStrings = ["This", "Is", "An", "Array", "Of", "Strings"];
+var anyArray;
+anyArray = ["Any", 1, "Array"];
+for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}
