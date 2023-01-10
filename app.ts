@@ -34,3 +34,4 @@ const product: {
 */
 
 let arrayOfStrings: string[];
+let anyArray: any[];
