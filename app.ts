@@ -53,3 +53,5 @@ for (const hobby of person.hobbies) {
 4. object | {age: 30}
 5. array | [1, 2, 3]
 */
+
+// Tuple | [1, 2] | Added by TS: Fixed-length array
