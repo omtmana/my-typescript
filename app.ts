@@ -34,4 +34,6 @@ const product: {
 */
 
 let arrayOfStrings: string[];
+arrayOfStrings = ["This", "Is", "An", "Array", "Of", "Strings"]
 let anyArray: any[];
+anyArray = ["Any", 1, "Array"]
