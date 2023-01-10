@@ -1,9 +1,11 @@
 const person: {
    name: string,
-   age: number
+   age: number,
+   hobbies: string[]
 } = {
    name: 'Olivia',
-   age: 25
+   age: 25,
+   hobbies: ['Basketball', 'Soccer']
 };
 
 console.log(person)
@@ -37,3 +39,5 @@ let arrayOfStrings: string[];
 arrayOfStrings = ["This", "Is", "An", "Array", "Of", "Strings"]
 let anyArray: any[];
 anyArray = ["Any", 1, "Array"]
+
+for (const hobby of person.)
